@@ -72,5 +72,6 @@ int main()
 
     std::cout << pi << std::endl;
     std::cout << "И със Cygwin се пише на кирилица ! 😍" << std::endl;
+    std::cout << "Това е страхотно !" << std::endl;
 
 }
