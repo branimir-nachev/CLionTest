@@ -72,6 +72,33 @@ int main()
 
     std::cout << pi << std::endl;
     std::cout << "И със Cygwin се пише на кирилица ! 😍" << std::endl;
+    std::cout << "Това, че поКазва емоджита е много интересно !" << std::endl;
     std::cout << "Това е страхотно !" << std::endl;
+
+    std::cout << "Some of the texts are to complex to handle" << std::endl;
+
+//  Implementation of Active Objects
+
+    typedef uint16_t Signal;    // Define the signal
+
+    enum ReservedSignals {
+        INIT_SIG,
+        USER_SIG,
+    };
+
+    typedef struct {
+        Signal signal;
+        // Other data
+    } Event;
+
+    typedef struct Active Active;
+
+    typedef void (*DispatchHandler)(Active * const me, Event const * e);
+
+    struct Active {
+        int ID;
+    };
+
+    std::cout << "Здравей, Свят !"  << std::endl;
 
 }

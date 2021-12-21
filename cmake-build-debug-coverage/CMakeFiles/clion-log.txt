@@ -1,0 +1,4 @@
+C:\Users\DELL\AppData\Local\JetBrains\CLion2021.3\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/DELL/CLionProjects/CLionTest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/DELL/CLionProjects/CLionTest/cmake-build-debug-coverage
