@@ -72,7 +72,7 @@ int main()
 
     std::cout << pi << std::endl;
     std::cout << "И със Cygwin се пише на кирилица ! 😍" << std::endl;
-    std::cout << "Това, че поКазва емоджита е много интересно !" << std::endl;
+    std::cout << "Това, че показва емоджита е много интересно !" << std::endl;
     std::cout << "Това е страхотно !" << std::endl;
 
     std::cout << "Some of the texts are to complex to handle" << std::endl;
@@ -100,5 +100,7 @@ int main()
     };
 
     std::cout << "Здравей, Свят !"  << std::endl;
+    std::cout << "Hello, World !" << std::endl;
+    std::cout << "Hello ! " << std::endl;
 
 }
